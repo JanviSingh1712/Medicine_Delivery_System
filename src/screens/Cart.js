@@ -18,7 +18,7 @@ export default function Cart() {
     let userEmail = localStorage.getItem("userEmail");
 
     try {
-      let response = await fetch("http://localhost:5000/api/orderData", {
+      let response = await fetch("https://medicine-delivery-system-1.onrender.com", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
