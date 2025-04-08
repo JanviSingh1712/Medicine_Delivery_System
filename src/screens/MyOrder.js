@@ -17,7 +17,7 @@ export default function MyOrder() {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/api/myOrderData", {
+            const response = await fetch("https://medicine-delivery-system-1.onrender.com", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
