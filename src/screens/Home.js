@@ -10,7 +10,7 @@ export default function Home() {
 
   const loadData = async () => {
     try {
-      let response = await fetch("http://localhost:5000/api/MedData", {
+      let response = await fetch("https://medicine-delivery-system-1.onrender.com", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
