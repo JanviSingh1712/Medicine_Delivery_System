@@ -12,7 +12,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/api/loginuser", {
+      const response = await fetch("https://medicine-delivery-system-1.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
